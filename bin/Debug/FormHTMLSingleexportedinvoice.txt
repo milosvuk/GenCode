@@ -1,0 +1,146 @@
+<table style="width: 100%;">
+<tr>
+<td>
+<asp:Label ID="lblidexportedinvoice" runat="server" Text="idexportedinvoice"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidexportedinvoice" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblidinvoice" runat="server" Text="idinvoice"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidinvoice" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lbltypeofac" runat="server" Text="typeofac"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txttypeofac" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblaccountreference" runat="server" Text="accountreference"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtaccountreference" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblnominalacref" runat="server" Text="nominalacref"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtnominalacref" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lbldepartment" runat="server" Text="department"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtdepartment" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lbldateofinv" runat="server" Text="dateofinv"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtdateofinv" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblreferencecode" runat="server" Text="referencecode"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtreferencecode" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lbldetails" runat="server" Text="details"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtdetails" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblnetamount" runat="server" Text="netamount"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtnetamount" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lbltaxcode" runat="server" Text="taxcode"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txttaxcode" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lbltaxamount" runat="server" Text="taxamount"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txttaxamount" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblexchangerate" runat="server" Text="exchangerate"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtexchangerate" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblextrareference" runat="server" Text="extrareference"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtextrareference" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblusername" runat="server" Text="username"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtusername" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblprojectrefn" runat="server" Text="projectrefn"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtprojectrefn" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblcostocderefn" runat="server" Text="costocderefn"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtcostocderefn" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblbtn" runat="server" Text=" "></asp:Label>
+</td>
+<td>
+<asp:Button ID="btnSave" runat="server" Text="Save" onclick="btnSave_Click"/>
+</td>
+</tr>
+ </table>

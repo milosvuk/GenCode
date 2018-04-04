@@ -1,0 +1,21 @@
+
+#-------------------------------------------------------------------------------
+[TableRender]
+ListTitle = Members
+EditTitle = Member or {parent.org_name}
+ColumnOrder = cnt_id, orgc_flag
+
+[columnRender name=org_id]
+EditDefaultValue = {parent.org_id}
+EditType = el
+
+[columnRender name=cnt_id]
+EditType = cb
+Link = 1
+RelationDisplayField = cnt_name_2
+
+
+[columnRender name=orgc_flag]
+Label = Membership type
+EditType = rd
+RelationDisplayField = orgc_flag_name_2

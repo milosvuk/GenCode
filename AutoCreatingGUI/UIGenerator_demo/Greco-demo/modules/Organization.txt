@@ -1,0 +1,44 @@
+[sql]
+select = select * from organization
+         order by org_name
+selectOne = select * from organization
+            where org_id = ?org_id
+checkBeforeDelete = select count(*) from country_organization where org_id = ?org_id
+
+[table]
+name = organization
+primaryKeys = org_id
+
+[column name=org_id #nullable=0]
+
+[column name=org_name domain=name nullable=0]
+
+[column name=org_name_2 domain=name nullable=0]
+
+[column name=org_name_3 domain=name]
+
+[column name=org_type type=N1 nullable=0]
+
+[column name=org_creation_date type=DT]
+
+[column name=cnt_id]
+
+[column name=cty_id]
+
+#-------------------------------------------------------------------------------
+[relation columns=org_type]
+Reference = organization-type
+ReferenceColumns = org_type
+DisplayField = org_type_name
+
+[relation columns=cnt_id]
+Reference = country
+ReferenceColumns = cnt_id
+DisplayField = cnt_name
+
+[relation columns=cty_id]
+Reference = organization-city
+ReferenceColumns = cty_id
+DisplayField = cty_name
+Params = cnt_id
+ReferenceParams = cnt_id

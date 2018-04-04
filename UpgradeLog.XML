@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WinTest">
+</Property><Property Name="Solution File" Value="C:\Development\GenClassFromTableSQL\WinTest.sln">
+</Property><Property Name="User Options File" Value="C:\Development\GenClassFromTableSQL\WinTest.suo">
+</Property><Property Name="Date" Value="15 June 2007">
+</Property><Property Name="Time" Value="08:39">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WinTest.sln" Description="File successfully backed up as C:\Development\GenClassFromTableSQL\Backup\WinTest.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WinTest.suo" Description="File successfully backed up as C:\Development\GenClassFromTableSQL\Backup\WinTest.suo">
+</Event><Event ErrorLevel="0" Project="WinTest" Source="WinTest.csproj" Description="Project file successfully backed up as C:\Development\GenClassFromTableSQL\Backup\WinTest.csproj">
+</Event><Event ErrorLevel="0" Project="WinTest" Source="WinTest.csproj.user" Description="Project user file successfully backed up as C:\Development\GenClassFromTableSQL\Backup\WinTest.csproj.user">
+</Event><Event ErrorLevel="0" Project="WinTest" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Development\GenClassFromTableSQL\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WinTest" Source="Bugs.cs" Description="File successfully backed up as C:\Development\GenClassFromTableSQL\Backup\Bugs.cs">
+</Event><Event ErrorLevel="0" Project="WinTest" Source="Class1.cs" Description="File successfully backed up as C:\Development\GenClassFromTableSQL\Backup\Class1.cs">
+</Event><Event ErrorLevel="0" Project="WinTest" Source="ClassDb.cs" Description="File successfully backed up as C:\Development\GenClassFromTableSQL\Backup\ClassDb.cs">
+</Event><Event ErrorLevel="0" Project="WinTest" Source="d1.cs" Description="File successfully backed up as C:\Development\GenClassFromTableSQL\Backup\d1.cs">
+</Event><Event ErrorLevel="0" Project="WinTest" Source="Form1.cs" Description="File successfully backed up as C:\Development\GenClassFromTableSQL\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="WinTest" Source="App.ico" Description="File successfully backed up as C:\Development\GenClassFromTableSQL\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="WinTest" Source="d1.xsd" Description="File successfully backed up as C:\Development\GenClassFromTableSQL\Backup\d1.xsd">
+</Event><Event ErrorLevel="0" Project="WinTest" Source="Form1.resx" Description="File successfully backed up as C:\Development\GenClassFromTableSQL\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="WinTest" Source="WinTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WinTest" Source="WinTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WinTest.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WinTest.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinTest" Source="WinTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

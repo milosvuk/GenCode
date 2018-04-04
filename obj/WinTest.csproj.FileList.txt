@@ -1,0 +1,11 @@
+obj\Debug\WinTest.exe
+obj\Debug\WinTest.pdb
+bin\Debug\WinTest.exe
+bin\Debug\WinTest.pdb
+bin\Debug\ClassData.dll
+bin\Debug\DBaseAccessCom.dll
+bin\Debug\DBaseAccessCom.pdb
+bin\Debug\ClassData.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WinTest.Form1.resources
+obj\Debug\WinTest.csproj.GenerateResource.Cache

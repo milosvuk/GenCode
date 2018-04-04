@@ -1,0 +1,15 @@
+              private void set_grid()
+               {
+
+                    DB_classname dm_classname = new DB_classname();
+
+                    List<classname> listclassname = (List<classname>)dm_classname.GetAll();;
+
+                    this.GridView1.DataSource = listclassname;
+                    this.GridView1.DataBind();
+
+                    this.ListBox1.DataSource = listclassname;
+                    this.ListBox1.DataTextField = "FieldDescription";
+                    this.ListBox1.DataValueField = "FieldValue";
+                    this.ListBox1.DataBind();
+               }

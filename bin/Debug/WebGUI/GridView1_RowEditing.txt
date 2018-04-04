@@ -1,0 +1,19 @@
+// protected void GridView1_RowEditing(object sender, GridViewEditEventArgs e)
+          //  {
+                int n = e.NewEditIndex;
+                e.Cancel = true;
+
+                this.ListBox1.SelectedIndex = n;
+                //  ListBox must be bind with the key 
+
+                string idRec = this.ListBox1.SelectedItem.Value;
+
+
+                //string idRec = this.GridView1.Rows[n].Cells[1].Text;
+
+                Session["idRec"] = idRec;
+                Session["Loggedin"] = Label2.Text;
+
+
+               Response.Redirect("UpdatePage.aspx");  //change to real update page
+          //  }

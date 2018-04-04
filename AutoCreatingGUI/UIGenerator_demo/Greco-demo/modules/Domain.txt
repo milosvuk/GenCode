@@ -1,0 +1,16 @@
+[table]
+name = __domain
+
+[column name=cur_id type=N9]
+
+[column name=cur_cd type=VA3]
+
+[column name=cnt_id type=N9]
+
+[column name=cnt_cd type=VA3]
+
+[column name=cty_id type=N9]
+
+[column name=org_id type=N9]
+
+[column name=name type=VA50]

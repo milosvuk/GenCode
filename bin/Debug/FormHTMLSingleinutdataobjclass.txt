@@ -1,0 +1,51 @@
+<table style="width: 100%;">
+<tr>
+<td>
+<asp:Label ID="lblidinput" runat="server" Text="idinput"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidinput" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblid_objclasses" runat="server" Text="id_objclasses"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtid_objclasses" runat="server"></asp:TextBox>
+<asp:DropDownList ID="DropDownListobjclasses" runat="server"></asp:DropDownList>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblname" runat="server" Text="name"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtname" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lbltypeandname" runat="server" Text="typeandname"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txttypeandname" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblruleswithaction" runat="server" Text="ruleswithaction"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtruleswithaction" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblbtn" runat="server" Text=" "></asp:Label>
+</td>
+<td>
+<asp:Button ID="btnSave" runat="server" Text="Save" onclick="btnSave_Click"/>
+</td>
+</tr>
+ </table>

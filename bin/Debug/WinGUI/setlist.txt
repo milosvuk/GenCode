@@ -1,0 +1,7 @@
+private void setListBox(ArrayList al, ListBox lBox)
+        {
+            for (int i = 0; i < al.Count; i++)
+            {
+                lBox.Items.Add(al[i].ToString());
+            }
+        }

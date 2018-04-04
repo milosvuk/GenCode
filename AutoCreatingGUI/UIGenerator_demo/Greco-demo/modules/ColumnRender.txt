@@ -1,0 +1,71 @@
+[table]
+name = ColumnRender
+
+[column name=ColumnVisible type=B]
+Nullable = false
+DefaultValue = true
+[column name=ColumnWidth type=N]
+Nullable = false
+DefaultValue = 100
+
+[column name=Label type=VA]
+
+[column name=EditVisible type=VA nullable=false defaultValue="true"]
+[column name=EditLabel type=VA]
+[column name=EditRightLabel type=VA]
+[column name=RegExprMessage type=VA]
+
+[column name=EditUpdateable type=VA nullable=false defaultValue="true"]
+
+[column name=EditWidth type=N]
+Nullable = false
+[column name=EditLabelWidth type=N]
+Nullable = false
+DefaultValue = -1
+[column name=EditHeightWidth type=N]
+Nullable = false
+DefaultValue = -1
+[column name=EditType type=VA3]
+Nullable = false
+DefaultValue = tf
+[column name=EditCase type=VA5]
+Nullable = false
+DefaultValue = Any
+
+[column name=ColumnAlignment type=VA10]
+Nullable = false
+DefaultValue = Left
+[column name=ColumnTitleAlignment type=VA10]
+Nullable = false
+DefaultValue = Left
+[column name=EditAlignment type=VA10]
+Nullable = false
+DefaultValue = Left
+[column name=EditLabelAlignment type=VA10]
+Nullable = false
+DefaultValue = Left
+
+[column name=TopInset type=N]
+Nullable = false
+DefaultValue = 0
+[column name=LeftInset type=N]
+Nullable = false
+DefaultValue = 0
+
+[column name=ColumnCss type=VA]
+[column name=ColumnCss2 type=VA]
+[column name=ColumnTitleCss type=VA]
+[column name=EditLabelCss type=VA]
+[column name=EditCss type=VA]
+
+[column name=Link type=VA]
+
+[column name=RelationShowInTable type=B nullable=false defaultValue=true]
+[column name=RelationDisplayField type=VA]
+[column name=RelationBlankLineText type=VA]
+
+#--------- peuvent être des expressions
+[column name=EditNullable type=VA]
+[column name=EditDefaultValue type=VA]
+[column name=EditMinValue type=VA]
+[column name=EditMaxValue type=VA]

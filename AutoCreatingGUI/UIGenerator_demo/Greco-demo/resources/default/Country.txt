@@ -1,0 +1,54 @@
+#-------------------------------------------------------------------------------
+[TableRender]
+ListTitle = Liste des pays
+ColumnOrder = cnt_cd, cnt_name, cur_id, cty_id
+EditOrder = cnt_cd, cnt_name, cnt_name_2, cnt_name_3, cur_id, cty_id
+EditTitle = Détail pays : {cnt_name}
+PassAllValuesByGet = 0
+DefaultAction = view
+DetailLists = country_city
+ActiveDetailList = 0
+PageSize = 10
+CanWrite = {session.IsAdmin}
+
+[TableRender action=new]
+EditTitle = Nouveau pays
+
+#-------------------------------------------------------------------------------
+[ParamFormRender]
+EditTitle = Critères de recherche
+
+[ParamRender name=cnt_cd]
+Label = Code pays
+
+#-------------------------------------------------------------------------------
+[ColumnRender name=cnt_cd]
+Label = Code pays
+Width = 150
+Link = 1
+
+[ColumnRender name=cnt_name]
+Label = Nom pays
+
+[ColumnRender name=cnt_name_2]
+Label = Nom pays (anglais)
+
+[ColumnRender name=cnt_name_3]
+Label = Nom pays (allemand)
+
+[ColumnRender name=cnt_inhabitants]
+Label = Nombre d'habitants
+
+[ColumnRender name=cur_id]
+# pas la peine, est dans le domaine
+#Label = Devise
+EditType = cb
+
+[ColumnRender name=cty_id]
+Label = Capitale
+EditType = cb
+
+#-------------------------------------------------------------------------------
+[Text]
+button.Add = Ajouter pays
+button.Search = Rechercher pays

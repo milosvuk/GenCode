@@ -1,0 +1,8 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPageAdmin.master" AutoEventWireup="true" CodeFile="classnameSingleRecord.aspx.cs" Inherits="classnameSingleRecord" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Main" Runat="Server">
+
+<asp:Label ID="Label2" runat="server" Text="2userid" Visible="False"></asp:Label>
+
+</asp:Content>
+

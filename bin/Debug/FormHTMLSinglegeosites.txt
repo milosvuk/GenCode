@@ -1,0 +1,50 @@
+<table style="width: 100%;">
+<tr>
+<td>
+<asp:Label ID="lblidgeosite" runat="server" Text="idgeosite"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidgeosite" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblidsitename" runat="server" Text="idsitename"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidsitename" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblgeocoordinates" runat="server" Text="geocoordinates"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtgeocoordinates" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblprotectedsite" runat="server" Text="protectedsite"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtprotectedsite" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblactive" runat="server" Text="active"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtactive" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblbtn" runat="server" Text=" "></asp:Label>
+</td>
+<td>
+<asp:Button ID="btnSave" runat="server" Text="Save" onclick="btnSave_Click"/>
+</td>
+</tr>
+ </table>

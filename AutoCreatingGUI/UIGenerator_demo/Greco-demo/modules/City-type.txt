@@ -1,0 +1,17 @@
+[table]
+name = city_type
+primaryKeys = cty_type
+
+[column name=cty_type type=n2]
+
+[column name=cty_type_name domain=name]
+label = Type de ville
+
+[column name=cty_type_name_2 domain=name]
+label = City type
+
+[values]
+1, Capitale, Capital
+2, Capitale régionale, Regional capital
+3, Ville, City
+4, Village, Village

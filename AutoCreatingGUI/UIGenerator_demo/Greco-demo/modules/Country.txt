@@ -1,0 +1,46 @@
+[sql]
+select = select * from country
+         where (?cnt_cd is null or cnt_cd like ?cnt_cd)
+         order by cnt_cd
+selectOne = select * from country
+            where cnt_id = ?cnt_id
+checkBeforeDelete = select count(*) from city where cnt_id = ?cnt_id
+
+#-------------------------------------------------------------------------------
+[param name=cnt_cd]
+
+#-------------------------------------------------------------------------------
+[table]
+name = country
+primaryKeys = cnt_id
+
+#-------------------------------------------------------------------------------
+[column name=cnt_id #nullable=0]
+
+[column name=cnt_cd nullable=0]
+Unique = 1
+
+[column name=cnt_name domain=name nullable=0]
+
+[column name=cnt_name_2 domain=name nullable=0]
+
+[column name=cnt_name_3 domain=name]
+
+[column name=cnt_inhabitants type=N9]
+
+[column name=cur_id]
+
+[column name=cty_id]
+
+#-------------------------------------------------------------------------------
+[relation columns=cur_id]
+Reference = currency
+ReferenceColumns = cur_id
+DisplayField = cur_name
+
+[relation columns=cty_id]
+Reference = city
+ReferenceColumns = cty_id
+DisplayField = cty_name
+Params = cnt_id
+ReferenceParams = cnt_id

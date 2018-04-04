@@ -1,0 +1,20 @@
+[ColumnRender name=cur_id]
+Label = Currency
+
+[ColumnRender name=cur_cd]
+Label = Currency
+
+[ColumnRender name=cnt_id]
+Label = Country
+
+[ColumnRender name=cnt_cd]
+Label = Country
+
+[ColumnRender name=cty_id]
+Label = City
+
+[ColumnRender name=org_id]
+Label = Organization
+
+[ColumnRender name=name]
+Label = Name

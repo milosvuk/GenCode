@@ -1,0 +1,14 @@
+[include file=StandardTexts.txt]
+
+
+[text]
+
+global.title = Générateur d'écrans base de données ASP.NET
+
+menu.admin = Démonstration du menu Admin
+menu.lang = Langue
+menu.description = Accès au descripteur
+
+home.welcome = Bienvenue sur la démonstration en ligne du framework Greco.
+home.loginAsAdmin = Se connecter en tant qu'administrateur : login=admin, password=admin
+home.loginAsGuest = Se connecter en tant qu'invité : login=guest, password=guest

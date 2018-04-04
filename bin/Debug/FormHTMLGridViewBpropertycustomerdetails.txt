@@ -1,0 +1,43 @@
+<table style="width: 100%;">
+<tr>
+<td>
+<asp:Label ID="lblSearch" runat="server" Text="Search"></asp:Label>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblView" runat="server" Text="View"></asp:Label>
+</td>
+<td>
+ <asp:GridView ID="GridView1" runat="server"
+AutoGenerateColumns="False" DataKeyNames="idpropertcustomerdetails"
+DELETE  onrowediting="GridView1_RowEditing"  and do on control click na events and that click Row_editing
+>
+   <Columns>
+<asp:CommandField HeaderText="Edit" ShowHeader="True" ShowEditButton="True"/>
+<asp:BoundField DataField="idpropertcustomerdetails" HeaderText="idpropertcustomerdetails" />
+<asp:BoundField DataField="id_propertycustomer" HeaderText="id_propertycustomer" />
+<asp:BoundField DataField="datefrom" HeaderText="datefrom" />
+<asp:BoundField DataField="dateto" HeaderText="dateto" />
+<asp:BoundField DataField="numberofdaystocreateinvoice" HeaderText="numberofdaystocreateinvoice" />
+<asp:BoundField DataField="amountforthatperiod" HeaderText="amountforthatperiod" />
+<asp:BoundField DataField="amountpereachinvoice" HeaderText="amountpereachinvoice" />
+<asp:BoundField DataField="description" HeaderText="description" />
+<asp:BoundField DataField="numberofinvoicestogenerate" HeaderText="numberofinvoicestogenerate" />
+<asp:BoundField DataField="generatedinvoicesfromthis" HeaderText="generatedinvoicesfromthis" />
+<asp:BoundField DataField="active" HeaderText="active" />
+    </Columns>
+</asp:GridView>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblbtn" runat="server" Text=" "></asp:Label>
+</td>
+<td>
+<asp:Button ID="btnSearch" runat="server" Text="Search"/>
+</td>
+</tr>
+ </table>

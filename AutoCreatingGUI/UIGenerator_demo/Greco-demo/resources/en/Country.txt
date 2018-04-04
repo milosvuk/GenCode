@@ -1,0 +1,47 @@
+#-------------------------------------------------------------------------------
+[TableRender]
+ListTitle = List of countries
+ColumnOrder = cnt_cd, cnt_name_2, cur_id, cty_id
+EditOrder = cnt_cd, cnt_name_2, cnt_name, cnt_name_3, cur_id, cty_id
+EditTitle = Country detail : {cnt_name_2}
+PassAllValuesByGet = 0
+
+[TableRender action=new]
+EditTitle = New country
+
+#-------------------------------------------------------------------------------
+[ParamFormRender]
+EditTitle = Search criteria
+
+[ParamRender name=cnt_cd]
+Label = Country code
+
+#-------------------------------------------------------------------------------
+[ColumnRender name=cnt_cd]
+Label = Country code
+Width = 150
+Link = 1
+
+[ColumnRender name=cnt_name]
+Label = Country name (french)
+
+[ColumnRender name=cnt_name_2]
+Label = Country name
+
+[ColumnRender name=cnt_name_3]
+Label = Country name (german)
+
+[ColumnRender name=cnt_inhabitants]
+Label = Inhabitants
+
+[ColumnRender name=cur_id]
+EditType = cb
+
+[ColumnRender name=cty_id]
+Label = Capital
+EditType = cb
+
+#-------------------------------------------------------------------------------
+[Text]
+button.Add = Add country
+button.Search = Search country

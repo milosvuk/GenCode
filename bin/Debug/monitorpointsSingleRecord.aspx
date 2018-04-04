@@ -1,0 +1,62 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPageAdmin.master" AutoEventWireup="true" CodeFile="monitorpointsSingleRecord.aspx.cs" Inherits="monitorpointsSingleRecord" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="Main" Runat="Server">
+<table style="width: 100%;">
+<tr>
+<td>
+<asp:Label ID="lblidmonitorpoints" runat="server" Text="idmonitorpoints"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidmonitorpoints" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lbldescription" runat="server" Text="description"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtdescription" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblimplication" runat="server" Text="implication"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtimplication" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblresolution" runat="server" Text="resolution"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtresolution" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblstatus" runat="server" Text="status"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtstatus" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblidcompany" runat="server" Text="idcompany"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidcompany" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblbtn" runat="server" Text=" "></asp:Label>
+</td>
+<td>
+<asp:Button ID="btnSave" runat="server" Text="Save" onclick="btnSave_Click"/>
+</td>
+</tr>
+ </table>
+<asp:Label ID="Label2" runat="server" Text="2userid" Visible="False"></asp:Label>
+</asp:Content>

@@ -1,0 +1,43 @@
+<table style="width: 100%;">
+<tr>
+<td>
+<asp:Label ID="lblSearch" runat="server" Text="Search"></asp:Label>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblView" runat="server" Text="View"></asp:Label>
+</td>
+<td>
+ <asp:GridView ID="GridView1" runat="server"
+AutoGenerateColumns="False" DataKeyNames="idRecInv"
+DELETE  onrowediting="GridView1_RowEditing"  and do on control click na events and that click Row_editing
+>
+   <Columns>
+<asp:CommandField HeaderText="Edit" ShowHeader="True" ShowEditButton="True"/>
+<asp:BoundField DataField="idRecInv" HeaderText="idRecInv" />
+<asp:BoundField DataField="idProperty" HeaderText="idProperty" />
+<asp:BoundField DataField="idCustomer" HeaderText="idCustomer" />
+<asp:BoundField DataField="DateOfInv" HeaderText="DateOfInv" />
+<asp:BoundField DataField="idExpense" HeaderText="idExpense" />
+<asp:BoundField DataField="Amount" HeaderText="Amount" />
+<asp:BoundField DataField="TaxPerc" HeaderText="TaxPerc" />
+<asp:BoundField DataField="TaxAmount" HeaderText="TaxAmount" />
+<asp:BoundField DataField="TotalAmount" HeaderText="TotalAmount" />
+<asp:BoundField DataField="Finalized" HeaderText="Finalized" />
+<asp:BoundField DataField="idCompany" HeaderText="idCompany" />
+    </Columns>
+</asp:GridView>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblbtn" runat="server" Text=" "></asp:Label>
+</td>
+<td>
+<asp:Button ID="btnSearch" runat="server" Text="Search"/>
+</td>
+</tr>
+ </table>

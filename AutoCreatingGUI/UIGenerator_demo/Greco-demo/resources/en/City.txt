@@ -1,0 +1,50 @@
+#-------------------------------------------------------------------------------
+[TableRender]
+ListTitle = List of cities
+ColumnOrder = cty_name_2, cnt_id, cty_type
+EditOrder = cty_name_2, cty_name, cty_name_3, cnt_id, cty_type,
+            cty_zip_code, cty_inhabitants
+EditTitle = City detail : {cty_name_2}
+PassAllValuesByGet = 0
+DefaultAction = view
+
+[TableRender action=new]
+EditTitle = New city
+
+#-------------------------------------------------------------------------------
+[ParamFormRender]
+EditTitle = Search criteria
+
+[ParamRender name=cty_name]
+
+[ParamRender name=cnt_id]
+EditType = cb
+RelationDisplayField = cnt_name_2
+
+#-------------------------------------------------------------------------------
+[ColumnRender name=cty_name]
+Link = Detail.aspx
+
+[ColumnRender name=cty_name]
+Label = Name (french)
+
+[ColumnRender name=cty_name_2]
+Label = Name
+Link = Detail.aspx
+
+[ColumnRender name=cty_name_3]
+Label = Name (german)
+
+[ColumnRender name=cty_inhabitants]
+Label = Number of inhabitants
+
+[ColumnRender name=cty_type]
+Label = Type
+RelationDisplayField = cty_type_name_2
+
+[ColumnRender name=cnt_id]
+EditType = cb
+RelationDisplayField = cnt_name_2
+
+[ColumnRender name=cty_zip_code]
+Label = Zip code

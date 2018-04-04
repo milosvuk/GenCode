@@ -1,0 +1,66 @@
+<table style="width: 100%;">
+<tr>
+<td>
+<asp:Label ID="lblidRec" runat="server" Text="idRec"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidRec" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblidDoc" runat="server" Text="idDoc"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidDoc" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblDateOfDoc" runat="server" Text="DateOfDoc"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtDateOfDoc" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblTypeOfDoc" runat="server" Text="TypeOfDoc"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtTypeOfDoc" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblDescription" runat="server" Text="Description"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtDescription" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblAmountOfDoc" runat="server" Text="AmountOfDoc"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtAmountOfDoc" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblRemainingAmount" runat="server" Text="RemainingAmount"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtRemainingAmount" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblbtn" runat="server" Text=" "></asp:Label>
+</td>
+<td>
+<asp:Button ID="btnSave" runat="server" Text="Save" onclick="btnSave_Click"/>
+</td>
+</tr>
+ </table>

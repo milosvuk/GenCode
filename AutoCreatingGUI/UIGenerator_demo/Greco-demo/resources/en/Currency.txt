@@ -1,0 +1,36 @@
+#-------------------------------------------------------------------------------
+[TableRender]
+ListTitle = List of currencies
+ColumnOrder = cur_cd, cur_name_2, cur_type, cur_status, cur_rate
+EditOrder = cur_cd, cur_name_2, cur_name, cur_name_3, cur_type, cur_status, cur_rate, cur_creation_date
+EditTitle = Currency detail : {cur_name_2}
+
+[TableRender action=new]
+EditTitle = New currency
+
+#-------------------------------------------------------------------------------
+[ColumnRender name=cur_cd]
+Label = Code
+Link = 1
+
+[ColumnRender name=cur_name]
+Label = Name (french)
+
+[ColumnRender name=cur_name_2]
+Label = Name
+
+[ColumnRender name=cur_name_3]
+Label = Name (german)
+
+[ColumnRender name=cur_rate]
+Label = Exchange rate (USD)
+
+[ColumnRender name=cur_type]
+Label = Type
+RelationDisplayField = cur_type_name_2
+
+[ColumnRender name=cur_status]
+Label = Accepted payment
+
+[ColumnRender name=cur_creation_date type=D]
+Label = Creation date

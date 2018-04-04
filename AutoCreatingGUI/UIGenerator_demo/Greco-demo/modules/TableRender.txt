@@ -1,0 +1,58 @@
+[table]
+name = TableRender
+
+[column name=ColumnOrder type=VA]
+[column name=EditOrder type=VA]
+
+[column name=ListTitle type=VA]
+[column name=EditTitle type=VA]
+[column name=EditNewTitle type=VA]
+
+[column name=TitleFontSize type=N]
+[column name=TitleAlignment type=VA]
+
+[column name=ListWindowSize type=VA]
+[column name=EditWindowSize type=VA]
+[column name=Orientation type=VA]
+
+[column name=ListButtonLabels type=VA]
+[column name=ListButtonWidths type=VA]
+[column name=ListButtonInsets type=VA]
+
+[column name=AskDelete type=B]
+DefaultValue = true
+
+[column name=VerticalButtons type=B]
+DefaultValue = false
+[column name=ShowSearchCriteria type=B]
+DefaultValue = true
+
+[column name=AskDeleteString type=VA]
+DefaultValue = Do you really want to delete this item ?
+
+[column name=SelectionMode type=VA]
+
+[column name=PassAllValuesByGet type=B nullable=0 defaultValue=false]
+
+
+[column name=DefaultAction type=VA]
+
+[column name=ListUrl type=VA nullable=0 defaultValue=List.aspx]
+
+[column name=DetailUrl type=VA nullable=0 defaultValue=Detail.aspx]
+
+[column name=ReturnUrl type=VA]
+
+[column name=DetailLists type=VA]
+
+[column name=ActiveDetailList type=N]
+
+[column name=IsListReaderMode type=B nullable=0 defaultValue=false]
+
+[column name=PageSize type=N nullable=0 defaultValue=10]
+
+[column name=CanRead type=VA]
+[column name=CanWrite type=VA]
+[column name=CanInsert type=VA]
+[column name=CanUpdate type=VA]
+[column name=CanDelete type=VA]

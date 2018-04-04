@@ -1,0 +1,22 @@
+[text]
+
+list.Null = <null>
+list.Delete = Delete
+list.ConfirmDelete = Do you really want to delete this data ?
+list.Page = Page :
+list.DbForeignKeyException = This record is referenced in another table.
+
+button.OK = OK
+button.Validate = Validate
+button.Cancel = Cancel
+button.Add = Add
+button.Search = Search
+button.AddSublist = Add
+button.Return = Return
+button.Edit = Edit
+
+record.Title = Record detail
+
+listControl.BlankLine = None
+
+error.FieldNotNullable = The input field {0} is mandatory

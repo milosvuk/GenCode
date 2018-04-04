@@ -1,0 +1,33 @@
+private void SetComboBox(int _id)
+    {
+	    int index = 0;
+        DB_classname dm_classname = new DB_classname(); //  
+
+        List<classname> listclassname = (List<classname>)dm_classname.GetAll();
+
+        this.DropDownList1.DataSource = listclassname;
+        this.DropDownList1.DataTextField = "FieldDescription";
+        this.DropDownList1.DataValueField = "FieldValue";
+        this.DropDownList1.DataBind();
+
+	 if (_id > 0)
+        {
+            // going thrue  the ID which is 
+            for (int i = 0; i < listclassname.Count; i++)
+            {
+                if (listclassname[i].FieldValue == _id)
+                {
+                    index = i;
+                    break;
+                }
+            }
+
+            this.DropDownList1.SelectedIndex = index; // the first one 
+        }
+        else
+        {
+            this.DropDownList1.SelectedIndex = 0; // the first one 
+        }
+       
+        // use string _id = this.DropDownList1.SelectedItem.Value;
+    }

@@ -1,0 +1,16 @@
+[table]
+name = orgc_flag
+primaryKeys = orgc_flag
+
+[column name=orgc_flag type=N2]
+
+[column name=orgc_flag_name domain=name]
+label = Type de participation
+
+[column name=orgc_flag_name_2 domain=name]
+label = Membership type
+
+[values]
+1, Membre fondateur, Foundator
+2, Membre, Regular member
+3, Observateur, Observer

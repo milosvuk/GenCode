@@ -1,0 +1,38 @@
+#-------------------------------------------------------------------------------
+[TableRender]
+ListTitle = Liste des organisations
+ColumnOrder = org_name, org_type, org_creation_date, cnt_id, cty_id
+EditOrder = org_name, org_name_2, org_name_3, org_type, org_creation_date, cnt_id, cty_id
+EditTitle = Détail organisation : {org_name}
+
+DetailLists = organization_country
+ActiveDetailList = 0
+
+CanWrite = {session.IsAdmin}
+
+
+#-------------------------------------------------------------------------------
+[ColumnRender name=org_name]
+Label = Nom
+Link = 1
+
+[ColumnRender name=org_name_2]
+Label = Nom (anglais)
+
+[ColumnRender name=org_name_3]
+Label = Nom (allemand)
+
+[ColumnRender name=org_type]
+Label = Type d'organisation
+EditType = cb
+
+[ColumnRender name=org_creation_date]
+Label = Date de création
+
+[ColumnRender name=cnt_id]
+Label = Pays (siège)
+EditType = cb
+
+[ColumnRender name=cty_id]
+Label = Ville (siège)
+EditType = cb

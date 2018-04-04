@@ -1,0 +1,4 @@
+KOMP-PC\SQLEXPRESS
+sa
+Dvuk1968!
+HuntingSystem

@@ -1,0 +1,7 @@
+private void setComboBox(ArrayList al, ComboBox cBox)
+        {
+            for (int i = 0; i < al.Count; i++)
+            {
+                cBox.Items.Add(al[i].ToString());
+            }
+        }

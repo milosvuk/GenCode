@@ -1,0 +1,7 @@
+[include file=city.txt]
+
+[table]
+ParentModule = country
+# Inutile, la correspondance par nom de clé primaire est automatique
+#ParentColumns = cnt_id
+#ChildColumns = cnt_id

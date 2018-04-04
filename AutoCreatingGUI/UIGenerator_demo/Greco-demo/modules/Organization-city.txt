@@ -1,0 +1,21 @@
+[sql]
+select = select cty_id, cty_name, cty_name_2 from city
+         where cnt_id = ?cnt_id
+         order by cty_name
+
+#-------------------------------------------------------------------------------
+[param name=cnt_id]
+
+#-------------------------------------------------------------------------------
+[table]
+name = city
+primaryKeys = cty_id
+
+#-------------------------------------------------------------------------------
+[column name=cty_id nullable=0]
+
+[column name=cty_name domain=name]
+
+[column name=cty_name_2 domain=name]
+
+[column name=cty_name_3 domain=name]

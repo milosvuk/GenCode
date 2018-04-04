@@ -1,0 +1,11 @@
+public usershs GetSingleRecord_From_FormFields()
+{
+usershs obj = new usershs();
+obj.IDRECUSER = this.txt_idRecUser.Text;
+obj.IDRECUSERGROUP = this.txt_idRecUserGroup.Text;
+obj.USERNAME = this.txt_Username.Text;
+obj.PASSWORD = this.txt_Password.Text;
+obj.USEREMAIL = this.txt_UserEmail.Text;
+obj.ACTIVE = this.txt_Active.Text;
+return obj
+}

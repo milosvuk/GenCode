@@ -1,0 +1,9 @@
+public void SetSingleRecord_To_FormFields(usershs obj)
+{
+txtidRecUser.Text  = obj.IDRECUSER;
+txtidRecUserGroup.Text  = obj.IDRECUSERGROUP;
+txtUsername.Text  = obj.USERNAME;
+txtPassword.Text  = obj.PASSWORD;
+txtUserEmail.Text  = obj.USEREMAIL;
+txtActive.Text  = obj.ACTIVE;
+}

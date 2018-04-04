@@ -1,0 +1,34 @@
+FileUpload fu = FileUpload1;
+        if (fu.HasFile)
+        {
+            StreamReader reader = new StreamReader(fu.FileContent);
+            do
+            {
+                string textLine = reader.ReadLine();
+
+                // do your coding 
+                //Loop trough txt file and add lines to ListBox1  
+
+                string[] record = textLine.Split(',');
+
+                string newPersonIdCard = record[0].Trim();
+
+                if (alExistingIdCards.IndexOf(newPersonIdCard) > -1)
+                {
+                    // exists do not add
+                   _uploadErrors.Add(GetUploadItemErrorRecord(newPersonIdCard));
+
+                }
+                else
+                {
+                    // new to add
+                    //ListBox1.Items.Add(newPersonIdCard);
+                    // here to put in list for update to database
+                    hunters objHunter = SetHunterObjectFromTxt(record);
+                    _newHunters.Add(objHunter);
+                    
+                }
+  
+            } while (reader.Peek() != -1);
+            reader.Close();
+        }

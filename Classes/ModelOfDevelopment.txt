@@ -1,0 +1,40 @@
+Model of Data
+*****************
+Create in SQL server and use get classes auto generated
+==================================
+
+
+Input 
+**********************
+could be manual or automatic
+The data will be transfer to objects 
+
+Important - cheking for null, emtpty or wrong value (like string instead of number)
+
+Desision what to do in a case of errorin a batch process - stop or do the once which are good and not good just reported
+==================================
+
+
+Binding to screen fields
+*********************************** 
+label
+textbox
+listbox
+dropbox
+calendar
+checkbox
+datagrid
+
+=====================================
+
+
+Operation with data
+*************************************
+For the perfomances using the list (list<> or ArrayList)
+=====================================
+
+
+Reports (view) 
+************************************
+DataGrid with Export to CSV file
+======================================

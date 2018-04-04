@@ -1,0 +1,18 @@
+#-------------------------------------------------------------------------------
+[TableRender]
+ListTitle = List of countries
+EditTitle = Add country to currency
+ColumnOrder = cnt_name_2
+EditOrder = cnt_id
+PassAllValuesByGet = 1
+
+#-------------------------------------------------------------------------------
+[ColumnRender name=cnt_id]
+Link = 1
+EditType = cb
+RelationDisplayField = cnt_name_2
+
+
+#-------------------------------------------------------------------------------
+[ColumnRender name=cnt_name_2]
+Label = Name

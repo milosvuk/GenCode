@@ -1,0 +1,35 @@
+[sql]
+select = select * from organization_country
+         where org_id = ?org_id
+selectOne = select * from organization_country
+            where org_id = ?org_id
+              and cnt_id = ?cnt_id
+
+[param name=org_id]
+
+[table]
+name = organization_country
+primaryKeys = org_id, cnt_id
+parentModule = organization
+
+[column name=org_id nullable=0]
+
+[column name=cnt_id nullable=0]
+
+[column name=orgc_flag type=N2 nullable=0]
+
+[relation columns=org_id]
+Reference = organization
+ReferenceColumns = org_id
+DisplayField = org_name
+
+[relation columns=cnt_id]
+Reference = country
+ReferenceColumns = cnt_id
+DisplayField = cnt_name
+
+[relation columns=orgc_flag]
+Reference = orgc_flag
+ReferenceColumns = orgc_flag
+DisplayField = orgc_flag_name
+

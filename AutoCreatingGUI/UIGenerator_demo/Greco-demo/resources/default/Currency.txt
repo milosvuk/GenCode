@@ -1,0 +1,40 @@
+#-------------------------------------------------------------------------------
+[TableRender]
+ListTitle = Liste des devises
+ColumnOrder = cur_cd, cur_name, cur_type, cur_status, cur_rate
+EditOrder = cur_cd, cur_name, cur_name_2, cur_name_3, cur_type, cur_status, cur_rate, cur_creation_date
+EditTitle = Détail devise : {cur_name}
+PassAllValuesByGet = 0
+DefaultAction = edit
+CanWrite = {session.IsAdmin}
+
+[TableRender action=new]
+EditTitle = Nouvelle devise
+
+#-------------------------------------------------------------------------------
+[ColumnRender name=cur_cd]
+Label = Code
+Link = 1
+
+[ColumnRender name=cur_name]
+Label = Nom
+
+[ColumnRender name=cur_name_2]
+Label = Nom (anglais)
+
+[ColumnRender name=cur_name_3]
+Label = Nom (allemand)
+
+[ColumnRender name=cur_rate]
+Label = Taux de change (dollars)
+
+[ColumnRender name=cur_type]
+Label = Type
+EditType = cb
+
+[ColumnRender name=cur_status]
+Label = Paiement accepté
+EditType = ck
+
+[ColumnRender name=cur_creation_date type=D]
+Label = Date de création

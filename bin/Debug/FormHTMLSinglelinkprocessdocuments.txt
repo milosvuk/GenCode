@@ -1,0 +1,52 @@
+<table style="width: 100%;">
+<tr>
+<td>
+<asp:Label ID="lblidprojectprocessdocuments" runat="server" Text="idprojectprocessdocuments"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidprojectprocessdocuments" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblProcessName" runat="server" Text="ProcessName"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtProcessName" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblDocumentName" runat="server" Text="DocumentName"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtDocumentName" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblid_process" runat="server" Text="id_process"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtid_process" runat="server"></asp:TextBox>
+<asp:DropDownList ID="DropDownListprocess" runat="server"></asp:DropDownList>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblid_documents" runat="server" Text="id_documents"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtid_documents" runat="server"></asp:TextBox>
+<asp:DropDownList ID="DropDownListdocuments" runat="server"></asp:DropDownList>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblbtn" runat="server" Text=" "></asp:Label>
+</td>
+<td>
+<asp:Button ID="btnSave" runat="server" Text="Save" onclick="btnSave_Click"/>
+</td>
+</tr>
+ </table>

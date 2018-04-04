@@ -1,0 +1,19 @@
+
+#-------------------------------------------------------------------------------
+[TableRender]
+ListTitle = Pays membres
+EditTitle = Pays membre de {parent.org_name}
+ColumnOrder = cnt_id, orgc_flag
+CanWrite = {session.IsAdmin}
+
+[columnRender name=org_id]
+EditDefaultValue = {parent.org_id}
+EditType = el
+
+[columnRender name=cnt_id]
+EditType = cb
+Link = 1
+
+[columnRender name=orgc_flag]
+Label = Type de participation
+EditType = rd

@@ -1,0 +1,7 @@
+private void setGrid()
+        {
+            DataTable dt = new DataTable();
+            GeneralDataLayer gdl = new GeneralDataLayer();
+            dt = gdl.GetTableFromSQLServer(SqlCon,"Select * From classname");
+            dataGridView1.DataSource = dt;
+        }

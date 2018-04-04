@@ -1,0 +1,16 @@
+[table]
+name = organization_type
+primaryKeys = org_type
+
+[column name=org_type type=N2]
+
+[column name=org_type_name domain=name]
+label = Type d'organisation
+
+[column name=org_type_name_2 domain=name]
+label = Organization type
+
+[values]
+1, Economique, Economic
+2, Politique, Politic
+3, Militaire, Military

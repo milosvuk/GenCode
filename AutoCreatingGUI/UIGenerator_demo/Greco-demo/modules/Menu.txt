@@ -1,0 +1,19 @@
+[table]
+name = Menu
+
+[column name=mnu_id type=N]
+
+[column name=mnu_id_parent type=N]
+
+[column name=mnu_module type=VA]
+
+[column name=mnu_name type=VA]
+
+[column name=mnu_name_en type=VA]
+
+[values]
+1, 0, currency, Devises, Currencies
+2, 0, country, Pays, Countries
+3, 0, city, Villes, Cities
+4, 0, organization, Organisations, Organizations
+4, 0, currency2, Devises 2, Currencies 2

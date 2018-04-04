@@ -1,0 +1,64 @@
+public bool CreateDatabase(string CN)
+        {
+            String str;
+            SqlConnection myConn = new SqlConnection("Server=ESTSYS4-PC;database=master;uid=sa;pwd=est$123;");
+            str = "USE MASTER CREATE DATABASE " + CN;
+            SqlCommand myCommand = new SqlCommand(str, myConn);
+            try
+            {
+                myConn.Open();
+                myCommand.ExecuteNonQuery();
+                MessageBox.Show("DataBase is Created Successfully", "ISELLit", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return true;
+            }
+            catch (System.Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "ISELLit", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return false;
+            }
+            finally
+            {
+                if (myConn.State == ConnectionState.Open)
+                {
+                    myConn.Close();
+                }
+            }
+        }
+
+public void CreateTbl(string TName, string ConString)
+    {
+        try
+        {
+            using (SqlCommand cmd = new SqlCommand("CREATE TABLE [dbo].['" + TName + "']("
+                            + "[ID] [int] IDENTITY(1,1) NOT NULL,"
+                            + "[DateTime] [date] NULL,"
+                            + "[BarCode] [nvarchar](max) NULL,"
+                            + "[ArtNumber] [nvarchar](max) NULL,"
+                            + "[ProductName] [nvarchar](50) NULL,"
+                            + "[Quantity] [int] NULL,"
+                            + "[SelfPrice] [decimal](18, 2) NULL,"
+                            + "[Price] [decimal](18, 2) NULL,"
+                            + "[Disccount] [int] NULL,"
+                            + "[Comment] [nvarchar](max) NULL"
+                            + ")", new SqlConnection(ConString)))
+            {
+                cmd.Connection.Open();
+                cmd.ExecuteNonQuery();
+                cmd.Connection.Close();
+            }
+        }
+        catch (Exception)
+        {
+
+            throw;
+        }
+    }
+
+CREATE TABLE [dbo].[usershs](
+	[idRecUser] [int] IDENTITY(1,1) NOT NULL,
+	[idRecUserGroup] [int] NULL,
+	[Username] [nvarchar](50) NULL,
+	[Password] [nvarchar](50) NULL,
+	[UserEmail] [nvarchar](50) NULL,
+	[Active] [int] NULL,
+	[idCompany] [int] NULL)

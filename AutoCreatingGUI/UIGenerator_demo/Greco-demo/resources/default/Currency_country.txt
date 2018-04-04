@@ -1,0 +1,13 @@
+#-------------------------------------------------------------------------------
+[TableRender]
+ListTitle = Liste des pays
+EditTitle = Ajouter pays pour devise
+ColumnOrder = cnt_name
+EditOrder = cnt_id
+PassAllValuesByGet = 1
+CanWrite = {session.IsAdmin}
+
+#-------------------------------------------------------------------------------
+[ColumnRender name=cnt_id]
+Link = 1
+EditType = cb

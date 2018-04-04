@@ -1,0 +1,37 @@
+[sql]
+select = select cur_id, cnt_id, cnt_name, cnt_name_2
+         from country
+         where cur_id = ?cur_id
+         order by cnt_cd
+selectOne = select cur_id, cnt_id, cnt_name, cnt_name_2
+            from country
+            where ?cur_id = ?cur_id
+              and ?cnt_id = ?cnt_id
+insert = update country set cur_id = ?cur_id
+         where cnt_id = ?cnt_id
+delete = update country set cur_id = null
+         where cnt_id = ?cnt_id
+
+#-------------------------------------------------------------------------------
+[param name=cur_id]
+
+#-------------------------------------------------------------------------------
+[table]
+name = nothing
+primaryKeys = cur_id, cnt_id
+ParentModule = currency2
+
+#-------------------------------------------------------------------------------
+[column name=cur_id nullable=0]
+
+[column name=cnt_id nullable=0]
+
+[column name=cnt_name domain=name]
+
+[column name=cnt_name_2 domain=name]
+
+#-------------------------------------------------------------------------------
+[relation columns=cnt_id]
+Reference = Country
+ReferenceColumns = cnt_id
+DisplayField = cnt_name

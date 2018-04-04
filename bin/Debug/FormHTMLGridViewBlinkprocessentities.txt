@@ -1,0 +1,37 @@
+<table style="width: 100%;">
+<tr>
+<td>
+<asp:Label ID="lblSearch" runat="server" Text="Search"></asp:Label>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblView" runat="server" Text="View"></asp:Label>
+</td>
+<td>
+ <asp:GridView ID="GridView1" runat="server"
+AutoGenerateColumns="False" DataKeyNames="idprojectprocessentities"
+DELETE  onrowediting="GridView1_RowEditing"  and do on control click na events and that click Row_editing
+>
+   <Columns>
+<asp:CommandField HeaderText="Edit" ShowHeader="True" ShowEditButton="True"/>
+<asp:BoundField DataField="idprojectprocessentities" HeaderText="idprojectprocessentities" />
+<asp:BoundField DataField="ProcessName" HeaderText="ProcessName" />
+<asp:BoundField DataField="EntityName" HeaderText="EntityName" />
+<asp:BoundField DataField="id_process" HeaderText="id_process" />
+<asp:BoundField DataField="id_identities" HeaderText="id_identities" />
+    </Columns>
+</asp:GridView>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblbtn" runat="server" Text=" "></asp:Label>
+</td>
+<td>
+<asp:Button ID="btnSearch" runat="server" Text="Search"/>
+</td>
+</tr>
+ </table>

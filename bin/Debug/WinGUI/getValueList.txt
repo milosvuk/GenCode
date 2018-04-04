@@ -1,0 +1,12 @@
+private string getValueFromListBox(ListBox lBox, int _index)
+        {
+            string res = "";
+
+            if (lBox.Items.Count > 0)
+            {
+                int x = lBox.SelectedIndex;
+                res = lBox.Items[x].ToString();
+            }
+
+            return res;
+        }

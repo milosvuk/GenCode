@@ -1,0 +1,20 @@
+[ColumnRender name=cur_id]
+Label = Devise
+
+[ColumnRender name=cur_cd]
+Label = Devise
+
+[ColumnRender name=cnt_id]
+Label = Pays
+
+[ColumnRender name=cnt_cd]
+Label = Pays
+
+[ColumnRender name=cty_id]
+Label = Ville
+
+[ColumnRender name=org_id]
+Label = Organisation
+
+[ColumnRender name=name]
+Label = Nom

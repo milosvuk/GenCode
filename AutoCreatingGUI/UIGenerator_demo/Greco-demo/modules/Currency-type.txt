@@ -1,0 +1,17 @@
+[table]
+name = currency-type
+primaryKeys = cur_type
+
+[column name=cur_type type=N2]
+
+[column name=cur_type_name domain=name]
+label = Type de devise
+
+[column name=cur_type_name_2 domain=name]
+label = Currency type
+
+[values]
+1, Monnaie internationale, International currency
+2, Monnaie nationale, National currency
+3, Monnaie nationale non convertible, National currency no convertible
+4, Ancienne monnaie, Old currency

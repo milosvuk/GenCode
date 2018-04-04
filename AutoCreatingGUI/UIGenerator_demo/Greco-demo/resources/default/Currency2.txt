@@ -1,0 +1,27 @@
+[include file=currency.txt]
+
+#-------------------------------------------------------------------------------
+[TableRender]
+DetailLists = currency_country
+ActiveDetailList = 0
+
+
+[EditRender]
+Layout = row1, row2, row3, row4, row5, row6, row7
+row1 = cur_cd
+row1.BackColor = magenta
+row2 = cur_name
+cur_name.width = 100px
+row3 = cur_name_2, cur_name_3
+cur_name_2.width = 100px
+cur_name_3.width = 100px
+row4 = cell41
+cell41 = label1
+cell41.ColumnSpan = 4
+label1.Text = Propriétés de la monnaie
+label1.ForeColor = #EE00FF
+label1.Width = 200px
+label1.Height = 20px
+row5 = cur_type
+row6 = cur_status, cur_rate
+row7 = cur_creation_date

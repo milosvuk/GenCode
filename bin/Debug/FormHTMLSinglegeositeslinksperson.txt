@@ -1,0 +1,114 @@
+<table style="width: 100%;">
+<tr>
+<td>
+<asp:Label ID="lblidgeosite" runat="server" Text="idgeosite"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidgeosite" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblidsitename" runat="server" Text="idsitename"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidsitename" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblgeocoordinates" runat="server" Text="geocoordinates"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtgeocoordinates" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblprotectedsite" runat="server" Text="protectedsite"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtprotectedsite" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblidgeositeslink" runat="server" Text="idgeositeslink"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidgeositeslink" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblidRecHunter" runat="server" Text="idRecHunter"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidRecHunter" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblname" runat="server" Text="name"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtname" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblidcard" runat="server" Text="idcard"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidcard" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblphonenum" runat="server" Text="phonenum"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtphonenum" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lbllicfinch" runat="server" Text="licfinch"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtlicfinch" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lbllicgoldenplower" runat="server" Text="licgoldenplower"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtlicgoldenplower" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblcuryear" runat="server" Text="curyear"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtcuryear" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblactive" runat="server" Text="active"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtactive" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblbtn" runat="server" Text=" "></asp:Label>
+</td>
+<td>
+<asp:Button ID="btnSave" runat="server" Text="Save" onclick="btnSave_Click"/>
+</td>
+</tr>
+ </table>

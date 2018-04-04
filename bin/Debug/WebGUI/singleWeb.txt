@@ -1,0 +1,11 @@
+public void SetSingleRecord_To_FormFields(aquisition obj)
+{
+txtidRecAquisition.Text  = obj.IDRECAQUISITION;
+txtidProperty.Text  = obj.IDPROPERTY;
+txtFromOwner.Text  = obj.FROMOWNER;
+txtToOwner.Text  = obj.TOOWNER;
+txtidNotary.Text  = obj.IDNOTARY;
+txtDateofaquisition.Text  = obj.DATEOFAQUISITION;
+txtComment.Text  = obj.COMMENT;
+txtidCompany.Text  = obj.IDCOMPANY;
+}

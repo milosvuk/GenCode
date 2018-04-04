@@ -1,0 +1,3 @@
+[Nothing]
+
+#Fichier utilisé pour inclure automatiquement ses versions localisées

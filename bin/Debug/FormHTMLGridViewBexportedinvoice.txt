@@ -1,0 +1,49 @@
+<table style="width: 100%;">
+<tr>
+<td>
+<asp:Label ID="lblSearch" runat="server" Text="Search"></asp:Label>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblView" runat="server" Text="View"></asp:Label>
+</td>
+<td>
+ <asp:GridView ID="GridView1" runat="server"
+AutoGenerateColumns="False" DataKeyNames="idexportedinvoice"
+DELETE  onrowediting="GridView1_RowEditing"  and do on control click na events and that click Row_editing
+>
+   <Columns>
+<asp:CommandField HeaderText="Edit" ShowHeader="True" ShowEditButton="True"/>
+<asp:BoundField DataField="idexportedinvoice" HeaderText="idexportedinvoice" />
+<asp:BoundField DataField="idinvoice" HeaderText="idinvoice" />
+<asp:BoundField DataField="typeofac" HeaderText="typeofac" />
+<asp:BoundField DataField="accountreference" HeaderText="accountreference" />
+<asp:BoundField DataField="nominalacref" HeaderText="nominalacref" />
+<asp:BoundField DataField="department" HeaderText="department" />
+<asp:BoundField DataField="dateofinv" HeaderText="dateofinv" />
+<asp:BoundField DataField="referencecode" HeaderText="referencecode" />
+<asp:BoundField DataField="details" HeaderText="details" />
+<asp:BoundField DataField="netamount" HeaderText="netamount" />
+<asp:BoundField DataField="taxcode" HeaderText="taxcode" />
+<asp:BoundField DataField="taxamount" HeaderText="taxamount" />
+<asp:BoundField DataField="exchangerate" HeaderText="exchangerate" />
+<asp:BoundField DataField="extrareference" HeaderText="extrareference" />
+<asp:BoundField DataField="username" HeaderText="username" />
+<asp:BoundField DataField="projectrefn" HeaderText="projectrefn" />
+<asp:BoundField DataField="costocderefn" HeaderText="costocderefn" />
+    </Columns>
+</asp:GridView>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblbtn" runat="server" Text=" "></asp:Label>
+</td>
+<td>
+<asp:Button ID="btnSearch" runat="server" Text="Search"/>
+</td>
+</tr>
+ </table>

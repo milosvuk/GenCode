@@ -1,0 +1,27 @@
+[general]
+BaseModulePath = Modules
+BaseResourcePath = Resources
+DomainFile = Domain.txt
+ColumnRenderFile = ColumnRender.txt
+TableRenderFile = TableRender.txt
+ResourceSuffix = .txt
+MultiLang = 1
+MultiTarget = 0
+TextsFile = Texts.txt
+
+
+#-------------------------------------------------------------------------------
+# if null see web.config
+[database]
+#Provider = MySql
+#ConnectionString = server=localhost;user id=root; password=; database=test; pooling=true
+
+#Provider = MsAccess
+#ConnectionString = provider=microsoft.jet.oledb.4.0; data source=f:\DZHosts\LocalUser\dactylo\dactylo.somee.com\data\Demo.mdb;
+
+#-------------------------------------------------------------------------------
+[parsing]
+DefaultCultureInfo = en-US
+
+[log]
+# Voir la config de log4net dans Web.config

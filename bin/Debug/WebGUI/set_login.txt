@@ -1,0 +1,23 @@
+                     private void set_login()
+                     {
+                         int logid = 0;
+
+                         if (Session["Loggedin"] != null)
+                         {
+                             logid = int.Parse(Session["Loggedin"].ToString());
+
+                         }
+                         else
+                         {
+                             Response.Redirect("MainLogin.aspx");
+                         }
+
+                         if (logid > 0)
+                         {
+                             Label2.Text = logid.ToString();
+                         }
+                         else
+                         {
+                             Response.Redirect("MainLogin.aspx");
+                         }
+                      }

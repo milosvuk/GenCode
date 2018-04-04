@@ -1,0 +1,146 @@
+<table style="width: 100%;">
+<tr>
+<td>
+<asp:Label ID="lblidRecHunter" runat="server" Text="idRecHunter"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidRecHunter" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblIdCardNumber" runat="server" Text="IdCardNumber"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtIdCardNumber" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblSurname" runat="server" Text="Surname"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtSurname" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblName" runat="server" Text="Name"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtName" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblLicencedMobileNumber" runat="server" Text="LicencedMobileNumber"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtLicencedMobileNumber" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblidRecLicence" runat="server" Text="idRecLicence"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtidRecLicence" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblLicenceYear" runat="server" Text="LicenceYear"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtLicenceYear" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblPaid" runat="server" Text="Paid"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtPaid" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblAmount" runat="server" Text="Amount"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtAmount" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblLicenceDescription" runat="server" Text="LicenceDescription"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtLicenceDescription" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblStartDate" runat="server" Text="StartDate"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtStartDate" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblEndDate" runat="server" Text="EndDate"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtEndDate" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblActiveL" runat="server" Text="ActiveL"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtActiveL" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblAddress2" runat="server" Text="Address2"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtAddress2" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblAddress1" runat="server" Text="Address1"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtAddress1" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblLocality" runat="server" Text="Locality"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtLocality" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblMaltaOrGozo" runat="server" Text="MaltaOrGozo"></asp:Label>
+</td>
+<td>
+<asp:TextBox ID="txtMaltaOrGozo" runat="server"></asp:TextBox>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblbtn" runat="server" Text=" "></asp:Label>
+</td>
+<td>
+<asp:Button ID="btnSave" runat="server" Text="Save" onclick="btnSave_Click"/>
+</td>
+</tr>
+ </table>

@@ -1,0 +1,49 @@
+<table style="width: 100%;">
+<tr>
+<td>
+<asp:Label ID="lblSearch" runat="server" Text="Search"></asp:Label>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblView" runat="server" Text="View"></asp:Label>
+</td>
+<td>
+ <asp:GridView ID="GridView1" runat="server"
+AutoGenerateColumns="False" DataKeyNames="idRecHunter"
+DELETE  onrowediting="GridView1_RowEditing"  and do on control click na events and that click Row_editing
+>
+   <Columns>
+<asp:CommandField HeaderText="Edit" ShowHeader="True" ShowEditButton="True"/>
+<asp:BoundField DataField="idRecHunter" HeaderText="idRecHunter" />
+<asp:BoundField DataField="IdCardNumber" HeaderText="IdCardNumber" />
+<asp:BoundField DataField="Surname" HeaderText="Surname" />
+<asp:BoundField DataField="Name" HeaderText="Name" />
+<asp:BoundField DataField="LicencedMobileNumber" HeaderText="LicencedMobileNumber" />
+<asp:BoundField DataField="idRecLicence" HeaderText="idRecLicence" />
+<asp:BoundField DataField="LicenceYear" HeaderText="LicenceYear" />
+<asp:BoundField DataField="Paid" HeaderText="Paid" />
+<asp:BoundField DataField="Amount" HeaderText="Amount" />
+<asp:BoundField DataField="LicenceDescription" HeaderText="LicenceDescription" />
+<asp:BoundField DataField="StartDate" HeaderText="StartDate" />
+<asp:BoundField DataField="EndDate" HeaderText="EndDate" />
+<asp:BoundField DataField="ActiveL" HeaderText="ActiveL" />
+<asp:BoundField DataField="Address2" HeaderText="Address2" />
+<asp:BoundField DataField="Address1" HeaderText="Address1" />
+<asp:BoundField DataField="Locality" HeaderText="Locality" />
+<asp:BoundField DataField="MaltaOrGozo" HeaderText="MaltaOrGozo" />
+    </Columns>
+</asp:GridView>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblbtn" runat="server" Text=" "></asp:Label>
+</td>
+<td>
+<asp:Button ID="btnSearch" runat="server" Text="Search"/>
+</td>
+</tr>
+ </table>

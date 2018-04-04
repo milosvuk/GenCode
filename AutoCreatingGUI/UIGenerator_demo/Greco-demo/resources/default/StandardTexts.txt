@@ -1,0 +1,22 @@
+[text]
+
+list.Null = <nul>
+list.Delete = Supprimer
+list.ConfirmDelete = Voulez-vous vraiment supprimer cet enregistrement ?
+list.Page = Page :
+list.DbForeignKeyException = Cet enregistrement est référencé dans une autre table.
+
+button.OK = OK
+button.Validate = Valider
+button.Cancel = Annuler
+button.Add = Ajouter
+button.Search = Rechercher
+button.AddSublist = Ajouter
+button.Return = Retour
+button.Edit = Modifier
+
+record.Title = Détail enregistrement
+
+listControl.BlankLine = Aucun
+
+error.FieldNotNullable = Le champ {0} doit être renseigné

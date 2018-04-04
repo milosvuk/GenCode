@@ -1,0 +1,13 @@
+public aquisition GetSingleRecord_From_FormFields()
+{
+aquisition obj = new aquisition();
+obj.IDRECAQUISITION = txtidRecAquisition.Text;
+obj.IDPROPERTY = txtidProperty.Text;
+obj.FROMOWNER = txtFromOwner.Text;
+obj.TOOWNER = txtToOwner.Text;
+obj.IDNOTARY = txtidNotary.Text;
+obj.DATEOFAQUISITION = txtDateofaquisition.Text;
+obj.COMMENT = txtComment.Text;
+obj.IDCOMPANY = txtidCompany.Text;
+return obj;
+}

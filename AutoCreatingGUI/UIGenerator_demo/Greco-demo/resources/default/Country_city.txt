@@ -1,0 +1,10 @@
+[include file=city.txt]
+
+[TableRender]
+ColumnOrder = cty_name, cty_type
+# Mettre true pour vérifier que ça plante quand on modifie un pays (dataReader non fermé quand on sauvegarde le record)
+IsListReaderMode = false
+
+
+[ColumnRender name=cnt_id]
+EditType = el

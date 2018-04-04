@@ -1,0 +1,24 @@
+$(function () {
+    $('input[id$=Button13]').click(function (evt) {
+
+        var _json = "[{parametrs:'id=1'},{parametrs:'id=2'}]";
+        var myJSON = JSON.stringify(_json);
+        
+        $.ajax({
+            async: true,
+            contentType: 'text/plain',
+            type: "POST",
+            data: myJSON,
+            url: "HandlCLASSNAME.ashx",
+            success: function (msg) {
+                alert(msg);
+                var jsonObj = $.parseJSON(msg);
+                alert(jsonObj[2].FIELD1);
+                alert(jsonObj[2].FIELD2);
+            }
+        });
+
+        evt.preventDefault();
+
+    });
+});

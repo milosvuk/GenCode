@@ -1,0 +1,14 @@
+[include file=StandardTexts.txt]
+
+
+[text]
+
+global.title = User Interface generator for ASP.NET database applications
+
+menu.admin = Admin menu demo
+menu.lang = Language
+menu.description = Get description
+
+home.welcome = Welcome to online demo of Greco framework.
+home.loginAsAdmin = Login as administrator : login=admin, password=admin
+home.loginAsGuest = Login as guest : login=guest, password=guest

@@ -1,0 +1,37 @@
+#-------------------------------------------------------------------------------
+[sql]
+select = select * from currency
+         order by cur_cd
+selectOne = select * from currency
+            where cur_id = ?cur_id
+checkBeforeDelete = select count(*) from country where cur_id = ?cur_id
+
+[table]
+name = currency
+primaryKeys = cur_id
+
+#-------------------------------------------------------------------------------
+[column name=cur_id #nullable=0]
+
+[column name=cur_cd type=VA3 nullable=0]
+Unique = 1
+
+[column name=cur_name domain=name nullable=0]
+
+[column name=cur_name_2 domain=name nullable=0]
+
+[column name=cur_name_3 domain=name]
+
+[column name=cur_type type=N2 nullable=0]
+
+[column name=cur_status type=B nullable=0]
+
+[column name=cur_rate type=N10,5]
+
+[column name=cur_creation_date type=D]
+
+#-------------------------------------------------------------------------------
+[relation columns=cur_type]
+Reference = currency-type
+ReferenceColumns = cur_type
+DisplayField = cur_type_name

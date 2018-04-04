@@ -1,0 +1,15 @@
+private string getValueFromComboBox(ComboBox cBox, int _index)
+        {
+            string res = "";
+
+            if (cBox.Items.Count > 0)
+            {
+                int x = cBox.SelectedIndex;
+                res = cBox.Items[x].ToString();
+            }
+
+            return res;
+
+ // use //  this.textBox1.Text = getValueFromComboBox(comboBox1, comboBox1.SelectedIndex);
+
+        }

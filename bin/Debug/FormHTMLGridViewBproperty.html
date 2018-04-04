@@ -1,0 +1,57 @@
+<table style="width: 100%;">
+<tr>
+<td>
+<asp:Label ID="lblSearch" runat="server" Text="Search"></asp:Label>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblView" runat="server" Text="View"></asp:Label>
+</td>
+<td>
+ <asp:GridView ID="GridView1" runat="server"
+AutoGenerateColumns="False" DataKeyNames="idRecProperty"
+DELETE  onrowediting="GridView1_RowEditing"  and do on control click na events and that click Row_editing
+>
+   <Columns>
+<asp:CommandField HeaderText="Edit" ShowHeader="True" ShowEditButton="True"/>
+<asp:BoundField DataField="idRecProperty" HeaderText="idRecProperty" />
+<asp:BoundField DataField="CodeOfProperty" HeaderText="CodeOfProperty" />
+<asp:BoundField DataField="Description" HeaderText="Description" />
+<asp:BoundField DataField="idOwner" HeaderText="idOwner" />
+<asp:BoundField DataField="idLocation" HeaderText="idLocation" />
+<asp:BoundField DataField="idType" HeaderText="idType" />
+<asp:BoundField DataField="idStatus" HeaderText="idStatus" />
+<asp:BoundField DataField="Address1" HeaderText="Address1" />
+<asp:BoundField DataField="Address2" HeaderText="Address2" />
+<asp:BoundField DataField="Address3" HeaderText="Address3" />
+<asp:BoundField DataField="TempPerpFhld" HeaderText="TempPerpFhld" />
+<asp:BoundField DataField="Latitude" HeaderText="Latitude" />
+<asp:BoundField DataField="Longitude" HeaderText="Longitude" />
+<asp:BoundField DataField="Dispute" HeaderText="Dispute" />
+<asp:BoundField DataField="LinktoSage" HeaderText="LinktoSage" />
+<asp:BoundField DataField="NumberOfRooms" HeaderText="NumberOfRooms" />
+<asp:BoundField DataField="AreaInSqM" HeaderText="AreaInSqM" />
+<asp:BoundField DataField="GroundRentAddressTo" HeaderText="GroundRentAddressTo" />
+<asp:BoundField DataField="GroudRentPaidTo" HeaderText="GroudRentPaidTo" />
+<asp:BoundField DataField="GroundRentDueTo" HeaderText="GroundRentDueTo" />
+<asp:BoundField DataField="GroundRentAmountPaid" HeaderText="GroundRentAmountPaid" />
+<asp:BoundField DataField="GrooundLastPaid" HeaderText="GrooundLastPaid" />
+<asp:BoundField DataField="GroundRentRedempt" HeaderText="GroundRentRedempt" />
+<asp:BoundField DataField="Active" HeaderText="Active" />
+<asp:BoundField DataField="idCompany" HeaderText="idCompany" />
+    </Columns>
+</asp:GridView>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Label ID="lblbtn" runat="server" Text=" "></asp:Label>
+</td>
+<td>
+<asp:Button ID="btnSearch" runat="server" Text="Search"/>
+</td>
+</tr>
+ </table>
